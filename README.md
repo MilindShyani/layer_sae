@@ -6,4 +6,7 @@ It seems that based on their definition the feature representation hypothesis is
 
 1. Are there holes in feature space that correspond to no features? For this we will need to learn SAE directions for different "meanings" and then check if there are regions in the space where none of these directions lie
 2. What are the effects of tokenization? 
-3. What are the effects of Cross entropy loss vs MSE loss?
+3. What are the effects of Cross entropy loss vs MSE loss? 
+4. And many more. 
+
+We will use the transforme lens library by Nanda and also vanilla Pytorch hooks to look inside the transformer and the SAE.
